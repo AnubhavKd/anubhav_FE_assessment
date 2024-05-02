@@ -1,0 +1,73 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-sort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-input,
+  .sort-select {
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .university-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  a {
+    color: #007bff;
+  }
+  
+  .delete_button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #C00001;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .link_button {
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #0056b3; /* Default text color */
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+
+

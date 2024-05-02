@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UniversityList Component renders UniversityList component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <h2
+      data-testid="university-list-title"
+    >
+      University List
+    </h2>
+    <div
+      class="filter-sort"
+    >
+      <input
+        class="search-input"
+        placeholder="Search by university name..."
+        type="text"
+        value=""
+      />
+      <select
+        class="sort-select"
+      >
+        <option
+          value=""
+        >
+          Default
+        </option>
+        <option
+          value="asc"
+        >
+          A-Z
+        </option>
+        <option
+          value="desc"
+        >
+          Z-A
+        </option>
+      </select>
+    </div>
+    <div
+      class="university-card"
+    >
+      <h3>
+        Harvard University
+      </h3>
+      <p>
+        Country: USA
+      </p>
+      <p>
+        State/Province: Massachusetts
+      </p>
+      <p>
+        Website: 
+        <a
+          href="http://www.harvard.edu"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          http://www.harvard.edu
+        </a>
+      </p>
+      <button
+        class="delete_button"
+      >
+        Delete
+      </button>
+      <button
+        class="link_button"
+      >
+        <a
+          href="/university/Harvard%20University"
+        >
+          View Details
+        </a>
+      </button>
+    </div>
+    <div
+      class="university-card"
+    >
+      <h3>
+        Oxford University
+      </h3>
+      <p>
+        Country: UK
+      </p>
+      <p>
+        Website: 
+        <a
+          href="http://www.ox.ac.uk"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          http://www.ox.ac.uk
+        </a>
+      </p>
+      <button
+        class="delete_button"
+      >
+        Delete
+      </button>
+      <button
+        class="link_button"
+      >
+        <a
+          href="/university/Oxford%20University"
+        >
+          View Details
+        </a>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
